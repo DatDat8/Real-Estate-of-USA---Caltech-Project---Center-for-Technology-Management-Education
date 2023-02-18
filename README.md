@@ -1,5 +1,6 @@
 # Real-Estate-of-USA---Caltech-Project---Center-for-Technology-Management-Education
 Capstone Project - California Technology - Center for Technology &amp; Management Education
+## Problem Description
 1. A banking institution requires actionable insights into mortgage-backed 
 securities, geographic business investment, and real estate analysis.
 
@@ -22,6 +23,13 @@ The objective is to identify white spaces/potential business in the mortgage loa
 
 The dashboard must demonstrate relationships and trends for the key metrics as follows:  number of loans, average rental income, monthly mortgage and owner’s cost, family income vs mortgage cost comparison across different regions. The metrics are described not to limit the dashboard to these few only.
 
+## Results
+Details of Data Preprocessing & Data Analysis on the attached notebook file.
+Features Used to Train and Predict Second Morgage: 'pop','male_pop','female_pop','rent_mean', 'hi_mean','family_mean','hc_mortgage_mean','hc_mean',
+                 'home_equity_second_mortgage','second_mortgage','home_equity','debt','bad_debt','pct_own',
+                 'second_mortgage_cdf','home_equity_cdf','debt_cdf','hs_degree','male_age_mean','female_age_mean','median_age','married'
+Model Used to predict Second Morgage ('hc_mortgage_mean'): Linear Regressor
+Model Performance: 0.836 R2 Score - Coefficient of Determination
 Dashboard Link on Tableau Public: https://public.tableau.com/views/USARealEstate-CapstoneProject/USARealEstate?:language=en-US&:display_count=n&:origin=viz_share_link
 
 ## Dataset
